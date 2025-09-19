@@ -3,14 +3,9 @@
 int main()
 {
     int n;
-    int sum=0;
     printf("Enter value\n");
     scanf("%d",&n);
-    for(int i=1;i<=n;i=i+2)
-    {
-            sum=sum+i;
-    
-    }
-    printf("Sum:%d",sum);
+    int sum=n*n;
+    printf("Sum:%d\n",sum);
     return 0;
 }
