@@ -1,4 +1,4 @@
-//Check if the elements on the diagonal of a matrix are distinct.
+//Find the sum of the elements of the principal diagonal of a matrix.
 #include <stdio.h>
 int main()
 {
@@ -24,6 +24,6 @@ int main()
             }
         }
     }
-    printf("Sum of elements of the principal diagonaal is: %d \n",sum);
+    printf("Sum of elements of the principal diagonal is: %d \n",sum);
     return 0;
 }
