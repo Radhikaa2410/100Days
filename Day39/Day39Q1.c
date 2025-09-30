@@ -1,7 +1,8 @@
 //Check if the elements on the diagonal of a matrix are distinct.
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int n;
     printf("Enter size of square matrix: ");
     scanf("%d", &n);
