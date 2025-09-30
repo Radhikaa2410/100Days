@@ -26,6 +26,18 @@ int main()
         }
     }
 
-    printf("The second largest element in the array is %d \n",arr[n-2]);
+    int lar=arr[n-1];
+    int sec=0;
+
+    for(int i=n-2;i>=0;i--)
+    {
+        if(arr[i]!=lar)
+        {
+            sec=arr[i];
+            break;
+        }
+    }
+
+    printf("The second largest element in the array is %d \n",sec);
     return 0;
 }
