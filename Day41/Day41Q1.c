@@ -10,6 +10,6 @@ int main()
     {
         c++;
     }
-    printf("Length of string is: %d\n ",c);
+    printf("Length of string is: %d\n",c);
     return 0;
 }
