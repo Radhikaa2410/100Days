@@ -19,7 +19,7 @@ int main()
     // Loop over all diagonals (i+j = d)
     for(int d = 0; d <= 2*(n-1); d++) 
     {
-        if(d % 2 == 0) 
+        if(d%2==0) 
         {
             // even diagonal → print bottom-up (i=n-1 to 0)
             for(int i = n-1; i >= 0; i--) 
