@@ -19,7 +19,7 @@ int main()
         for(i = 1; i <= x; i++)
             sum1 += i;
 
-        for(i = x; i <= n; i++)
+        for(i=x;i<=n;i++)
             sum2 += i;
 
         if(sum1 == sum2) 
