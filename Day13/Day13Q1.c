@@ -4,6 +4,7 @@ int main()
 {
     int n;
     int a,b,sum,sub,pro,div,mod;
+    
     printf("MENU:1)ADD 2)SUBTRACT 3)DIVIDE 4)MULITPLY 5)REMAINDER\n");
     printf("Enter choice to perform the operation\n");
     scanf("%d",&n);
