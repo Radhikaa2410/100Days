@@ -51,7 +51,7 @@ int main()
         {
           mod=a%b;
         }
-        else if(b>a&&a!=0)
+        else if(b>a && a!=0)
         {
           mod=b%a;
         }
