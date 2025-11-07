@@ -12,7 +12,7 @@ int main()
 
     int a[n];
     printf("Enter %d elements: ", n);
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i<n; i++)
         scanf("%d", &a[i]);
 
     printf("Enter k: ");
