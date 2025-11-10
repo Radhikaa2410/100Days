@@ -19,7 +19,7 @@ int main()
     printf("Enter k: ");
     scanf("%d", &k);
 
-    if (k > n || k <= 0) 
+    if (k>n||k<=0) 
     {
         printf("Invalid k\n");
         return 0;
