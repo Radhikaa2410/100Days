@@ -34,7 +34,7 @@ int main() {
         }
 
         printf("%d", next);
-        if (i != n - 1)
+        if (i!=n-1)
             printf(", ");
     }
 
