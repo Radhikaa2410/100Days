@@ -11,7 +11,7 @@ int main()
 
     int nums[n];
 
-    printf("Enter %d sorted elements:\n", n);
+    printf("Enter %d sorted elements: \n", n);
     for(i = 0; i < n; i++) 
     {
         scanf("%d", &nums[i]);
