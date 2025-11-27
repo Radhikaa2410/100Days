@@ -7,7 +7,7 @@ int main()
     int n, t, i, f = -1, l = -1;
 
     printf("Enter size of array: ");
-    scanf("%d", &n);
+    scanf("%d",&n);
 
     int nums[n];
 
