@@ -17,7 +17,8 @@ struct Student {
     int marks;
 };
 
-int main() {
+int main() 
+{
     struct Student *ptr = (struct Student*)malloc(sizeof(struct Student));
 
     scanf("%s %d %d", ptr->name, &ptr->roll, &ptr->marks);

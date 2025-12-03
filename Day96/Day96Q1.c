@@ -18,7 +18,8 @@ struct Student {
     int marks;
 };
 
-int main() {
+int main() 
+{
     struct Student s1, s2;
 
     scanf("%s %d %d", s1.name, &s1.roll, &s1.marks);

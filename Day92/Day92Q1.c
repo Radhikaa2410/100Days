@@ -25,7 +25,7 @@ int main() {
         scanf("%f", &s[i].marks);
     }
 
-    printf("\n--- Student Details ---\n");
+    printf("\n---Student Details---\n");
     for (int i = 0; i < 5; i++) {
         printf("\nStudent %d\n", i + 1);
         printf("Name: %s\n", s[i].name);

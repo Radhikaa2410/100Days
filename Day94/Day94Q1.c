@@ -21,7 +21,8 @@ struct Employee {
     struct Date join;
 };
 
-int main() {
+int main() 
+{
     struct Employee e;
 
     scanf("%s %d %d %d %d", e.name, &e.id, &e.join.day, &e.join.month, &e.join.year);

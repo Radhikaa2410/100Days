@@ -35,7 +35,8 @@ int main() {
     fclose(fp);
 
     fp = fopen("employee.dat", "rb");   // read binary
-    if (fp == NULL) {
+    if (fp == NULL) 
+    {
         printf("Cannot open file for reading.\n");
         return 1;
     }

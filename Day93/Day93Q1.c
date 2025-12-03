@@ -29,7 +29,7 @@ int main() {
     // Find highest marks
     for (i = 1; i < 5; i++) {
         if (s[i].marks > s[topIndex].marks) {
-            topIndex = i;
+            topIndex= i;
         }
     }
 

@@ -27,7 +27,7 @@ int main() {
 
     printf("Employee details entered and stored in file.\n");
 
-    fp = fopen("employee.bin", "rb");
+    fp = fopen("employee.bin","rb");
     fread(&temp, sizeof(struct Employee), 1, fp);
     fclose(fp);
 

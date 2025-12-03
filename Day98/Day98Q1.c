@@ -27,10 +27,10 @@ int main() {
     printf("Marks: ");
     scanf("%f", &s2.marks);
 
-    // Compare field by field
     if (strcmp(s1.name, s2.name) == 0 &&
         s1.roll_no == s2.roll_no &&
-        s1.marks == s2.marks) {
+        s1.marks == s2.marks) 
+        {
 
         printf("\nBoth structures are IDENTICAL.\n");
     } else {
